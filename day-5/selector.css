@@ -1,0 +1,42 @@
+p{
+    color: #002e3d;
+    background-color: #22ccfc;
+}
+
+.cls{
+    color: white;
+    background-color: cyan;
+}
+
+#ide{
+    color: aliceblue;
+    background-color: red;
+}
+a[href="abc.com"]{
+    color: white;
+    background-color: #ee753f;
+    
+    text-decoration:line-through;
+}
+a[href="xyz.id"]{
+    color: white;
+    background-color: #ff0022;
+}
+
+/* descendent selector */
+header h1, header p{
+    color: rgb(255, 0, 123);
+    background-color: aquamarine;
+}
+
+/* child selecter */
+article > main > h5{
+    color: aliceblue;
+    background-color: darkviolet;
+}
+
+/* sibling selector */
+main small{
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+}
