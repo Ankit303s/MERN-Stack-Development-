@@ -1,0 +1,17 @@
+*{
+    margin: 5%;
+}
+h1{
+    font-weight: 400;
+}
+
+.para{
+    text-align: left;
+    text-decoration:line-through;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-indent: 2em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    word-spacing: 2em;
+}
