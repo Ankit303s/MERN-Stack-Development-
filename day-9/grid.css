@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "item1 item1 item3 sidebar"
+        "item2 item2 item4 sidebar"
+        "item5 item6 item6 sidebar"
+        "footer footer footer footer";
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: #8e44ad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.item1 {
+    grid-area: item1;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.item2 {
+    grid-area: item2;
+    background-color: #9b59b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.item3 {
+    grid-area: item3;
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.item4 {
+    grid-area: item4;
+    background-color: #16a085;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.item5 {
+    grid-area: item5;
+    background-color: #f39c12;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.item6 {
+    grid-area: item6;
+    background-color: #d35400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
