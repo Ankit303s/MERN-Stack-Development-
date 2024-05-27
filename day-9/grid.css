@@ -3,12 +3,15 @@ body {
 }
 
 .container {
+    width: 100vw;
+    height: 100vh;
     display: grid;
     grid-template-areas:
         "header header header header"
         "item1 item1 item3 sidebar"
-        "item2 item2 item4 sidebar"
-        "item5 item6 item6 sidebar"
+        "item1 item1 item4 sidebar"
+        "item2 item2 item2 sidebar"
+        "item5 item6 blank sidebar"
         "footer footer footer footer";
     grid-gap: 10px;
     padding: 10px;
