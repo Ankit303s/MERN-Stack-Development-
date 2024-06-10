@@ -1,51 +1,83 @@
-// //1
-// let challenge = 'World of JavaScript'
 
-// //2
-// console.log(challenge)
 
-// //3
-// console.log(challenge.length)
+//Level 1 
 
-// //4
-// console.log(challenge.toUpperCase())
+//1
+let challenge = 'World of JavaScript'
 
-// //5
-// console.log(challenge.toLowerCase())
+//2
+console.log(challenge)
 
-// //6
-// console.log(challenge.substring(0,5))
+//3
+console.log(challenge.length)
 
-// //7
-// console.log(challenge.substring(7,19))
+//4
+console.log(challenge.toUpperCase())
 
-// //8
-// console.log(challenge.includes("Script"))
+//5
+console.log(challenge.toLowerCase())
 
-// //9
-// console.log(challenge.split(''))
+//6
+console.log(challenge.substring(0,5))
 
-// //10
-// console.log(challenge.split(' '))
+//7
+console.log(challenge.substring(7,19))
 
-// //11
-// let mnc =  'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
-// console.log(mnc.split(','))
+//8
+console.log(challenge.includes("Script"))
 
-// //12
-// console.log(`Welcome to ${challenge.replace('JavaScript', 'Python')}`)
+//9
+console.log(challenge.split(''))
 
-// //13
-// console.log()
+//10
+console.log(challenge.split(' '))
 
-let string = 'World Of JavaScript'
-console.log(string.charAt(0)) 
+//11
+let mnc =  'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+console.log(mnc.split(','))
 
-let string1 = 'I love JavaScript. If you do not love JavaScript what else can youlove.'
-console.log(string.lastIndexOf('love')) // 67
-console.log(string.lastIndexOf('you')) // 63
-console.log(string.lastIndexOf('JavaScript')) // 38
+//12
+console.log(`Welcome to ${challenge.replace('JavaScript', 'Python')}`)
 
-let string3 = 'I love JavaScript. If you do not love JavaScript what else can youlove.'
-console.log(string.match('love'))
+//13
+console.log(challenge.charAt(15))
 
+//14
+console.log(challenge.charCodeAt('J'))
+
+//15
+console.log(challenge.indexOf('a'))
+
+//16
+console.log(challenge.lastIndexOf('a'))
+
+//17
+let para = 'You cannot end a sentence with because because because is a conjunction'
+console.log(para.indexOf('because'))
+
+//18
+console.log(para.lastIndexOf('because'))
+
+//19
+console.log(para.search('because'))
+
+//20
+challenge1 = ' CSS Magic  '
+console.log(challenge1.trim())
+
+//21
+console.log(challenge.startsWith('World'))
+
+//22
+console.log(challenge.endsWith('Script'))
+
+//23
+let pattern = /a/gi
+console.log(challenge.match(pattern))
+
+//24
+let string = "Welcome to "
+console.log(string.concat(challenge, "."))
+
+//25
+console.log(challenge.repeat(2))
