@@ -116,8 +116,21 @@ console.log(lan1.match(/on/g))
 
 //6
 let sentence3 = "I hope this course is not full of jargon"
-console.log(sentence3.search('jargon'))
+console.log(sentence3.includes('jargon'))
 
 
 //7
 console.log(Math.random()*100)
+
+//8
+console.log((Math.random()*50)+50)
+
+//9
+console.log(Math.random()*255)
+
+//10
+str1 = 'JavaScript'
+console.log(str1[Math.round(Math.random()*7)])
+
+//11
+console.log("1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125");
