@@ -222,8 +222,8 @@ console.log(`Pay person is ${pay_person}`)
 //10  If the length of your name is greater than 7 say, your name is long else say your name is short.
 
 length_name = prompt("enter your name :")
-length = length_name.length
-length > 7 
+length1 = length_name.length - 1
+length1 > 7 
     ? console.log("your name is long")
     : console.log("your name is short")
 
