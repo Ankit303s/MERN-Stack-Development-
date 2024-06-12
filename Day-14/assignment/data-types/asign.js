@@ -142,7 +142,11 @@ console.log("1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125");
 let sentence4 = 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
 console.log(sentence4.match(/love/g))
 
-//2 clean the text 
+//2
+let sentence2 = 'You cannot end asentence with because because because is a conjunction'
+console.log(sentence2.match(/because/g))
+
+//3 clean the text 
 const sentence5 = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is Welcome to#World&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
 console.log(sentence5)
 let sentence6 = sentence5.replaceAll('$', '')
@@ -154,7 +158,7 @@ sentence6 = sentence6.replaceAll('#', '')
 sentence6 = sentence6.replaceAll(';', '')
 console.log(sentence6)
 
-//3 calculating monthly income
+//4 calculating monthly income
 let monthly = 5000
 let bonus = 10000
 let online_courses = 15000
