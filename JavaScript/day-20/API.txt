@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="mainbox"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+.mainbox{
+border: 2px solid red;
+display: flex;
+flex-wrap: wrap;
+width: 80%;
+margin: auto;
+gap:1rem
+}
+
+.box{
+min-width: 200px;
+flex: 1;
+border: 2px solid blue;
+padding: 0.5rem;
+}
