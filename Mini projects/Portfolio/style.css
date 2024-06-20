@@ -9,6 +9,7 @@
 body {
     opacity: 0;
     transition: opacity 3s;
+    background: line;
 }
 
 .hero {
@@ -36,7 +37,8 @@ body {
     text-decoration: none;
     color: #2a2a2a;
     font-weight: 600;
-    transition: all 500ms ease-in;
+    transition: all 200ms ease-in;
+    border: 0;
 }
 
 .nav .link ul a:hover {
@@ -54,12 +56,24 @@ body {
 }
 
 .main .men {
+    position: relative;
     width: 400px;
     transition: all 2000ms ease;
     cursor: pointer;
     border-radius: 50%;
+    animation: intro 20s linear ;
 }
-
+@keyframes intro {
+    0%{
+        left: -100px;
+    }
+    55%{
+        left: 40px;
+    }
+    100%{
+        left: 0;
+    }
+}
 .main .men:hover{
     transform: scale(1.1);
 }
@@ -99,7 +113,7 @@ body {
     color: #ffffff;
     border: none;
     outline: none;
-    transition: all 2000ms ease-in-out;
+    transition: all 500ms ease-in-out;
 
 }
 
