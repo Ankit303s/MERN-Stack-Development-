@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
+import Card from './cards/card1.jsx'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>Hellow</h1>
+      <h1>Indian Minecraft Animatiors</h1>
+      <Card/>
     </>
   )
 }
-
 export default App
